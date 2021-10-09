@@ -5,6 +5,7 @@ type Props = {
 };
 
 const bla = 'bla';
+
 export default function Home({ title = 'React Avançado' }: Props) {
   return (
     <div className="container">
